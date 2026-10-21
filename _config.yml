@@ -1,0 +1,6 @@
+title: Hacker Theme
+description: Personal site
+show_downloads: true
+google_analytics:
+theme: ages-themes slash hacker at v 0.2.0
+plugins: jekyll-remote-theme

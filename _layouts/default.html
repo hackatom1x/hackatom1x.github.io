@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% include head-custom.html %}
+</head>
+<body>
+  <div class="container">
+    <section class="page-header">
+      <h1 class="project-name">{{ site.title }}</h1>
+      <h2 class="project-tagline">{{ site.description }}</h2>
+    </section>
+    <section class="main-content">
+      {{ content }}
+      <footer class="site-footer">
+        <p>Contact: <a href="mailto:tom@banaria.com">tom@banaria.com</a></p>
+      </footer>
+    </section>
+  </div>
+</body>
+</html>
